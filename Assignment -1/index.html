@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Registration Form</title>
+  </head>
+  <body style="background-image: url('image1.jpg'); background-position: center; background-repeat: no-repeat;
+               background-size: cover;">
+    <div class="alert"></div>
+    <form id="reg-form" style="background-color:rgb(242, 199, 220);">
+      <h1>Registration Form</h1>
+      <label for="full-name">Full Name</label>
+      <input type="text" name="full-name" id="full-name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone" maxlength="11" />
+      <label for="dob">Date Of Birth</label>
+      <input type="date" name="dob" id="dob" />
+      <label for="description">Description</label>
+      <textarea name="description" id="description" placeholder="Description ..."></textarea>
+      <button type="submit" id="submit">SUBMIT</button>
+      <button type="submit" id="save">SAVE</button>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>

@@ -1,0 +1,13 @@
+**** Steps to run node js app in vs code ****
+
+1. Create a folder named "server" on desktop.
+2. In VS code terminal type "npm init"
+3. Then in cmd goto that path "C:\Users\dyp\Desktop\server"
+4. Fire command code . in cmd
+6. After that type "npm i express"
+7. After that type "npm i nodemon"
+8. In package.json add following
+   "start": "nodemon server.js"
+9. Then create server.js and index.html file
+10.After that type "npm start"
+11. In browser type "localhost:5000" 
